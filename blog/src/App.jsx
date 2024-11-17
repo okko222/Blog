@@ -1,7 +1,12 @@
+import {NavBar} from "./Components/NavBar/NavBar.jsx"; 
+import { Footer } from "./Components/Footer/Footer.jsx";
+import {Blogs} from "./Components/Blogs/Blogs.jsx"
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <>
+    <NavBar /> 
+    <Blogs/>
+    <Footer/>
+   </>
   )
 }
